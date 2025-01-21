@@ -1,114 +1,114 @@
 {
   "Srbija-Madjarska": [
-    "Horgos 1",
-    "Horgos 2",
-    "Kelebija",
-    "Backi Breg",
-    "Backi Vinogradi",
-    "Bajmok",
-    "Rastina"
+    {"name": "Horgos 1", "map": "Horgos 1"},
+    {"name": "Horgos 2", "map": "Horgos 2"},
+    {"name": "Kelebija", "map": "Kelebija"},
+    {"name": "Backi Breg", "map": "Backi Breg"},
+    {"name": "Backi Vinogradi", "map": "Backi Vinogradi"},
+    {"name": "Bajmok", "map": "Bajmok"},
+    {"name": "Rastina", "map": "Rastina"}
   ],
   "Madjarska-Srbija": [
-    "Horgos 1",
-    "Horgos 2",
-    "Kelebija",
-    "Backi Breg",
-    "Backi Vinogradi",
-    "Bajmok",
-    "Rastina"
+    {"name": "Horgos 1", "map": "Horgos 1"},
+    {"name": "Horgos 2", "map": "Horgos 2"},
+    {"name": "Kelebija", "map": "Kelebija"},
+    {"name": "Backi Breg", "map": "Backi Breg"},
+    {"name": "Backi Vinogradi", "map": "Backi Vinogradi"},
+    {"name": "Bajmok", "map": "Bajmok"},
+    {"name": "Rastina", "map": "Rastina"}
   ],
   "Srbija-Hrvatska": [
-    "Batrovci",
-    "Sid",
-    "Backa Palanka",
-    "Bogojevo",
-    "Bezdan",
-    "Nestin",
-    "Lujuba",
-    "Sot"
+    {"name": "Batrovci", "map": "45.047784, 19.103472"},
+    {"name": "Sid", "map": "Sid"},
+    {"name": "Backa Palanka", "map": "Backa Palanka"},
+    {"name": "Bogojevo", "map": "Bogojevo"},
+    {"name": "Bezdan", "map": "Bezdan"},
+    {"name": "Nestin", "map": "Nestin"},
+    {"name": "Lujuba", "map": "Lujuba"},
+    {"name": "Sot", "map": "Sot"}
   ],
   "Hrvatska-Srbija": [
-    "Batrovci",
-    "Sid",
-    "Backa Palanka",
-    "Bogojevo",
-    "Bezdan",
-    "Nestin",
-    "Lujuba",
-    "Sot"
+    {"name": "Batrovci", "map": "45.047784, 19.103472"},
+    {"name": "Sid", "map": "Sid"},
+    {"name": "Backa Palanka", "map": "Backa Palanka"},
+    {"name": "Bogojevo", "map": "Bogojevo"},
+    {"name": "Bezdan", "map": "Bezdan"},
+    {"name": "Nestin", "map": "Nestin"},
+    {"name": "Lujuba", "map": "Lujuba"},
+    {"name": "Sot", "map": "Sot"}
   ],
   "Srbija-Bosna": [
-    "Badovinci",
-    "Sremska Raca",
-    "Mali Zvornik",
-    "Ljubovija",
-    "Bajina Basta",
-    "Kotroman",
-    "Uvac",
-    "Visegrad",
-    "Rudo",
-    "Jamena"
+    {"name": "Sremska Raca", "map": "Sremska Raca"},
+    {"name": "Badovinci", "map": "Badovinci"},
+    {"name": "Mali Zvornik", "map": "Mali Zvornik"},
+    {"name": "Ljubovija", "map": "Ljubovija"},
+    {"name": "Bajina Basta", "map": "Bajina Basta"},
+    {"name": "Kotroman", "map": "Kotroman"},
+    {"name": "Uvac", "map": "Uvac"},
+    {"name": "Visegrad", "map": "Visegrad"},
+    {"name": "Rudo", "map": "Rudo"},
+    {"name": "Jamena", "map": "Jamena"}
   ],
   "Bosna-Srbija": [
-    "Badovinci",
-    "Sremska Raca",
-    "Mali Zvornik",
-    "Ljubovija",
-    "Bajina Basta",
-    "Kotroman",
-    "Uvac",
-    "Visegrad",
-    "Rudo",
-    "Jamena"
+    {"name": "Sremska Raca", "map": "Sremska Raca"},
+    {"name": "Badovinci", "map": "Badovinci"},
+    {"name": "Mali Zvornik", "map": "Mali Zvornik"},
+    {"name": "Ljubovija", "map": "Ljubovija"},
+    {"name": "Bajina Basta", "map": "Bajina Basta"},
+    {"name": "Kotroman", "map": "Kotroman"},
+    {"name": "Uvac", "map": "Uvac"},
+    {"name": "Visegrad", "map": "Visegrad"},
+    {"name": "Rudo", "map": "Rudo"},
+    {"name": "Jamena", "map": "Jamena"}
   ],
   "Srbija-Crna Gora": [
-    "Jabuka",
-    "Gostun",
-    "Mehov Krs"
+    {"name": "Jabuka", "map": "Jabuka"},
+    {"name": "Gostun", "map": "Gostun"},
+    {"name": "Mehov Krs", "map": "Mehov Krs"}
   ],
   "Crna Gora-Srbija": [
-    "Jabuka",
-    "Gostun",
-    "Mehov Krs"
+    {"name": "Jabuka", "map": "Jabuka"},
+    {"name": "Gostun", "map": "Gostun"},
+    {"name": "Mehov Krs", "map": "Mehov Krs"}
   ],
   "Srbija-Makedonija": [
-    "Presevo",
-    "Prohor Pcinjski"
+    {"name": "Presevo", "map": "Presevo"},
+    {"name": "Prohor Pcinjski", "map": "Prohor Pcinjski"}
   ],
   "Makedonija-Srbija": [
-    "Presevo",
-    "Prohor Pcinjski"
+    {"name": "Presevo", "map": "Presevo"},
+    {"name": "Prohor Pcinjski", "map": "Prohor Pcinjski"}
   ],
   "Srbija-Bugarska": [
-    "Dimitrovgrad",
-    "Vrska Cuka",
-    "Strezimirovci",
-    "Ribarci"
+    {"name": "Dimitrovgrad", "map": "Dimitrovgrad"},
+    {"name": "Vrska Cuka", "map": "Vrska Cuka"},
+    {"name": "Strezimirovci", "map": "Strezimirovci"},
+    {"name": "Ribarci", "map": "Ribarci"}
   ],
   "Bugarska-Srbija": [
-    "Dimitrovgrad",
-    "Vrska Cuka",
-    "Strezimirovci",
-    "Ribarci"
+    {"name": "Dimitrovgrad", "map": "Dimitrovgrad"},
+    {"name": "Vrska Cuka", "map": "Vrska Cuka"},
+    {"name": "Strezimirovci", "map": "Strezimirovci"},
+    {"name": "Ribarci", "map": "Ribarci"}
   ],
   "Srbija-Rumunija": [
-    "Djerdap 1",
-    "Djerdap 2",
-    "Kaludjerovo",
-    "Srpska Crnja",
-    "Vatin",
-    "Jasa Tomic",
-    "Nakovo",
-    "Vrbica"
+    {"name": "Djerdap 1", "map": "Djerdap 1"},
+    {"name": "Djerdap 2", "map": "Djerdap 2"},
+    {"name": "Kaludjerovo", "map": "Kaludjerovo"},
+    {"name": "Srpska Crnja", "map": "Srpska Crnja"},
+    {"name": "Vatin", "map": "Vatin"},
+    {"name": "Jasa Tomic", "map": "Jasa Tomic"},
+    {"name": "Nakovo", "map": "Nakovo"},
+    {"name": "Vrbica", "map": "Vrbica"}
   ],
   "Rumunija-Srbija": [
-    "Djerdap 1",
-    "Djerdap 2",
-    "Kaludjerovo",
-    "Srpska Crnja",
-    "Vatin",
-    "Jasa Tomic",
-    "Nakovo",
-    "Vrbica"
+    {"name": "Djerdap 1", "map": "Djerdap 1"},
+    {"name": "Djerdap 2", "map": "Djerdap 2"},
+    {"name": "Kaludjerovo", "map": "Kaludjerovo"},
+    {"name": "Srpska Crnja", "map": "Srpska Crnja"},
+    {"name": "Vatin", "map": "Vatin"},
+    {"name": "Jasa Tomic", "map": "Jasa Tomic"},
+    {"name": "Nakovo", "map": "Nakovo"},
+    {"name": "Vrbica", "map": "Vrbica"}
   ]
 }

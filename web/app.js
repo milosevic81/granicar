@@ -23,11 +23,11 @@ async function generateLinks() {
   const crossings = borderCrossings[countryKey];
   if (crossings) {
     crossings.forEach(crossing => {
-      const link = generateGoogleMapsLink(from, to, crossing);
+      const link = generateGoogleMapsLink(from, to, crossing.map);
       const anchor = document.createElement('a');
       anchor.href = link;
       anchor.target = '_blank';
-      anchor.textContent = `Route via ${crossing} (${countryKey})`;
+      anchor.textContent = `Route via ${crossing.name} (${countryKey})`;
       linksContainer.appendChild(anchor);
     });
   } else {
