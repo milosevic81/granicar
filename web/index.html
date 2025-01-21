@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Crossing Map App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Border Crossing Map Generator</h1>
+  <label for="from">From Location:</label>
+  <input type="text" id="from" placeholder="Enter starting location or paste Google Maps link" value="Home">
+
+  <label for="to">To Location:</label>
+  <input type="text" id="to" placeholder="Enter destination or paste Google Maps link" value="Zagreb">
+
+  <label>Travel Direction:</label>
+  <div>
+    <input type="radio" id="from-serbia" name="travel-direction" value="from-serbia" checked>
+    <label for="from-serbia">From Serbia</label>
+  </div>
+  <div>
+    <input type="radio" id="to-serbia" name="travel-direction" value="to-serbia">
+    <label for="to-serbia">To Serbia</label>
+  </div>
+
+  <label for="neighboring-countries">Select Neighboring Country:</label>
+  <select id="neighboring-countries">
+    <option value="Madjarska">Madjarska</option>
+    <option value="Hrvatska">Hrvatska</option>
+    <option value="Bosna">Bosna</option>
+    <option value="Crna Gora">Crna Gora</option>
+    <option value="Makedonija">Makedonija</option>
+    <option value="Bugarska">Bugarska</option>
+    <option value="Rumunija">Rumunija</option>
+  </select>
+
+  <button id="generate">Generate Links</button>
+
+  <div class="links" id="links"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

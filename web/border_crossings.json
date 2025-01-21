@@ -1,0 +1,114 @@
+{
+  "Srbija-Madjarska": [
+    "Horgos 1",
+    "Horgos 2",
+    "Kelebija",
+    "Backi Breg",
+    "Backi Vinogradi",
+    "Bajmok",
+    "Rastina"
+  ],
+  "Madjarska-Srbija": [
+    "Horgos 1",
+    "Horgos 2",
+    "Kelebija",
+    "Backi Breg",
+    "Backi Vinogradi",
+    "Bajmok",
+    "Rastina"
+  ],
+  "Srbija-Hrvatska": [
+    "Batrovci",
+    "Sid",
+    "Backa Palanka",
+    "Bogojevo",
+    "Bezdan",
+    "Nestin",
+    "Lujuba",
+    "Sot"
+  ],
+  "Hrvatska-Srbija": [
+    "Batrovci",
+    "Sid",
+    "Backa Palanka",
+    "Bogojevo",
+    "Bezdan",
+    "Nestin",
+    "Lujuba",
+    "Sot"
+  ],
+  "Srbija-Bosna": [
+    "Badovinci",
+    "Sremska Raca",
+    "Mali Zvornik",
+    "Ljubovija",
+    "Bajina Basta",
+    "Kotroman",
+    "Uvac",
+    "Visegrad",
+    "Rudo",
+    "Jamena"
+  ],
+  "Bosna-Srbija": [
+    "Badovinci",
+    "Sremska Raca",
+    "Mali Zvornik",
+    "Ljubovija",
+    "Bajina Basta",
+    "Kotroman",
+    "Uvac",
+    "Visegrad",
+    "Rudo",
+    "Jamena"
+  ],
+  "Srbija-Crna Gora": [
+    "Jabuka",
+    "Gostun",
+    "Mehov Krs"
+  ],
+  "Crna Gora-Srbija": [
+    "Jabuka",
+    "Gostun",
+    "Mehov Krs"
+  ],
+  "Srbija-Makedonija": [
+    "Presevo",
+    "Prohor Pcinjski"
+  ],
+  "Makedonija-Srbija": [
+    "Presevo",
+    "Prohor Pcinjski"
+  ],
+  "Srbija-Bugarska": [
+    "Dimitrovgrad",
+    "Vrska Cuka",
+    "Strezimirovci",
+    "Ribarci"
+  ],
+  "Bugarska-Srbija": [
+    "Dimitrovgrad",
+    "Vrska Cuka",
+    "Strezimirovci",
+    "Ribarci"
+  ],
+  "Srbija-Rumunija": [
+    "Djerdap 1",
+    "Djerdap 2",
+    "Kaludjerovo",
+    "Srpska Crnja",
+    "Vatin",
+    "Jasa Tomic",
+    "Nakovo",
+    "Vrbica"
+  ],
+  "Rumunija-Srbija": [
+    "Djerdap 1",
+    "Djerdap 2",
+    "Kaludjerovo",
+    "Srpska Crnja",
+    "Vatin",
+    "Jasa Tomic",
+    "Nakovo",
+    "Vrbica"
+  ]
+}
