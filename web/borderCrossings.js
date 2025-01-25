@@ -1,5 +1,5 @@
-{
-  "Srbija-Madjarska": [
+const borderCrossings = {
+  "Serbia-Hungary": [
     {"name": "Horgos 1", "map": "Horgos 1"},
     {"name": "Horgos 2", "map": "Horgos 2"},
     {"name": "Kelebija", "map": "Kelebija"},
@@ -8,7 +8,7 @@
     {"name": "Bajmok", "map": "Bajmok"},
     {"name": "Rastina", "map": "Rastina"}
   ],
-  "Madjarska-Srbija": [
+  "Hungary-Serbia": [
     {"name": "Horgos 1", "map": "Horgos 1"},
     {"name": "Horgos 2", "map": "Horgos 2"},
     {"name": "Kelebija", "map": "Kelebija"},
@@ -17,8 +17,8 @@
     {"name": "Bajmok", "map": "Bajmok"},
     {"name": "Rastina", "map": "Rastina"}
   ],
-  "Srbija-Hrvatska": [
-    {"name": "Batrovci", "map": "45.047784, 19.103472"},
+  "Serbia-Croatia": [
+    {"name": "Batrovci", "map": "Гранични прелаз Бајаково (HR)"},    
     {"name": "Sid", "map": "Sid"},
     {"name": "Backa Palanka", "map": "Backa Palanka"},
     {"name": "Bogojevo", "map": "Bogojevo"},
@@ -27,8 +27,8 @@
     {"name": "Lujuba", "map": "Lujuba"},
     {"name": "Sot", "map": "Sot"}
   ],
-  "Hrvatska-Srbija": [
-    {"name": "Batrovci", "map": "45.047784, 19.103472"},
+  "Croatia-Serbia": [
+    {"name": "Batrovci", "map": "Granični prelaz Batrovci (SRB)"},
     {"name": "Sid", "map": "Sid"},
     {"name": "Backa Palanka", "map": "Backa Palanka"},
     {"name": "Bogojevo", "map": "Bogojevo"},
@@ -37,7 +37,7 @@
     {"name": "Lujuba", "map": "Lujuba"},
     {"name": "Sot", "map": "Sot"}
   ],
-  "Srbija-Bosna": [
+  "Serbia-Bosnia and Herzegovina": [
     {"name": "Sremska Raca", "map": "Sremska Raca"},
     {"name": "Badovinci", "map": "Badovinci"},
     {"name": "Mali Zvornik", "map": "Mali Zvornik"},
@@ -49,7 +49,7 @@
     {"name": "Rudo", "map": "Rudo"},
     {"name": "Jamena", "map": "Jamena"}
   ],
-  "Bosna-Srbija": [
+  "Bosnia and Herzegovina-Serbia": [
     {"name": "Sremska Raca", "map": "Sremska Raca"},
     {"name": "Badovinci", "map": "Badovinci"},
     {"name": "Mali Zvornik", "map": "Mali Zvornik"},
@@ -61,37 +61,37 @@
     {"name": "Rudo", "map": "Rudo"},
     {"name": "Jamena", "map": "Jamena"}
   ],
-  "Srbija-Crna Gora": [
+  "Serbia-Montenegro": [
     {"name": "Jabuka", "map": "Jabuka"},
     {"name": "Gostun", "map": "Gostun"},
     {"name": "Mehov Krs", "map": "Mehov Krs"}
   ],
-  "Crna Gora-Srbija": [
+  "Montenegro-Serbia": [
     {"name": "Jabuka", "map": "Jabuka"},
     {"name": "Gostun", "map": "Gostun"},
     {"name": "Mehov Krs", "map": "Mehov Krs"}
   ],
-  "Srbija-Makedonija": [
+  "Serbia-North Macedonia": [
     {"name": "Presevo", "map": "Presevo"},
     {"name": "Prohor Pcinjski", "map": "Prohor Pcinjski"}
   ],
-  "Makedonija-Srbija": [
+  "North Macedonia-Serbia": [
     {"name": "Presevo", "map": "Presevo"},
     {"name": "Prohor Pcinjski", "map": "Prohor Pcinjski"}
   ],
-  "Srbija-Bugarska": [
+  "Serbia-Bulgaria": [
     {"name": "Dimitrovgrad", "map": "Dimitrovgrad"},
     {"name": "Vrska Cuka", "map": "Vrska Cuka"},
     {"name": "Strezimirovci", "map": "Strezimirovci"},
     {"name": "Ribarci", "map": "Ribarci"}
   ],
-  "Bugarska-Srbija": [
+  "Bulgaria-Serbia": [
     {"name": "Dimitrovgrad", "map": "Dimitrovgrad"},
     {"name": "Vrska Cuka", "map": "Vrska Cuka"},
     {"name": "Strezimirovci", "map": "Strezimirovci"},
     {"name": "Ribarci", "map": "Ribarci"}
   ],
-  "Srbija-Rumunija": [
+  "Serbia-Romania": [
     {"name": "Djerdap 1", "map": "Djerdap 1"},
     {"name": "Djerdap 2", "map": "Djerdap 2"},
     {"name": "Kaludjerovo", "map": "Kaludjerovo"},
@@ -101,7 +101,7 @@
     {"name": "Nakovo", "map": "Nakovo"},
     {"name": "Vrbica", "map": "Vrbica"}
   ],
-  "Rumunija-Srbija": [
+  "Romania-Serbia": [
     {"name": "Djerdap 1", "map": "Djerdap 1"},
     {"name": "Djerdap 2", "map": "Djerdap 2"},
     {"name": "Kaludjerovo", "map": "Kaludjerovo"},

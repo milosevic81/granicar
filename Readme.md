@@ -1,4 +1,11 @@
 
+Run locally
+===========
+
+cd web
+python -m http.server
+
+
 Granicni prelazi
 ================
 
