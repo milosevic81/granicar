@@ -5,74 +5,67 @@ This project helps navigate border crossing
 cd web
 python -m http.server
 
-# Granicni prelazi
+# Border crossings
 
-Srbija -> Madjarska
-Madjarska -> Srbija
+## Srbija <-> Madjarska
 
-Horgos 1
-Horgos 2 (7-19)
-Kelebija
-Backi Breg
-Backi Vinogradi (7-19)
-Bajmok (7-19)
-Rastina (7-19)
+- Horgos 1
+- Horgos 2 (7-19)
+- Kelebija
+- Backi Breg
+- Backi Vinogradi (7-19)
+- Bajmok (7-19)
+- Rastina (7-19)
 
-Srbija -> Hrvatska
-Hrvatska -> Srbija
+## Srbija <-> Hrvatska
 
-Batrovci
-Sid
-Backa Palanka
-Bogojevo
-Bezdan
-Nestin
-Lujuba 
-Sot
+- Batrovci
+- Sid
+- Backa Palanka
+- Bogojevo
+- Bezdan
+- Nestin
+- Lujuba 
+- Sot
 
-Srbija -> Bosna
-Bosna -> Srbija
+## Srbija <-> Bosna
 
-Badovinci
-Sremska Rača
-Mali Zvornik
-Ljubovija
-Bajina Bašta
-Kotroman (Mokra Gora)
-Uvac (Priboj)
-Višegrad
-Rudo
-Jamena (skelom 7-14)
+- Badovinci
+- Sremska Rača
+- Mali Zvornik
+- Ljubovija
+- Bajina Bašta
+- Kotroman (Mokra Gora)
+- Uvac (Priboj)
+- Višegrad
+- Rudo
+- Jamena (skelom 7-14)
 
-Srbija -> Crna Gora
-Crna Gora -> Srbija
+## Srbija <-> Crna Gora
 
-Jabuka
-Gostun
-Mehov Krs
+- Jabuka
+- Gostun
+- Mehov Krs
 
-Srbija -> Makedonija
-Makedonija -> Srbija
+## Srbija <-> Makedonija
 
-Preševo (Tabanovci)
-Prohor Pčinjski
+- Preševo (Tabanovci)
+- Prohor Pčinjski
 
-Srbija -> Bugarska
-Bugarska -> Srbija
+## Srbija <-> Bugarska
 
-Dimitrovgrad (Gradina)
-Vrška Čuka
-Strezimirovci
-Ribarci
+- Dimitrovgrad (Gradina)
+- Vrška Čuka
+- Strezimirovci
+- Ribarci
 
-Srbija -> Bugarska
-Bugarska -> Srbija
+## Srbija <-> Bugarska
 
-Djerdap 1
-Djerdap 2
-Kaludjerovo
-Srpska Crnja
-Vatin
-Jaša Tomić (7-19)
-Nakovo (7-19)
-Vrbica (7-19)
+- Djerdap 1
+- Djerdap 2
+- Kaludjerovo
+- Srpska Crnja
+- Vatin
+- Jaša Tomić (7-19)
+- Nakovo (7-19)
+- Vrbica (7-19)
