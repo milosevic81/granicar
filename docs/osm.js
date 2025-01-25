@@ -39,9 +39,19 @@ async function getCountryFromAddress(address) {
 
 const coordinatesCache = {};
 async function getCoordinates(location) {
+    
+    if (location.lat && location.lon) {
+        return {
+            lat: location.lat,
+            lon: location.lon
+        };
+    }
+    
     if (coordinatesCache[location]) {
         return coordinatesCache[location];
     }
+
+    console.log(`Look for location: ${location}`);
     const coordinates = await getCoordinatesOsm(location);
     coordinatesCache[location] = coordinates;
     return coordinates;
@@ -57,12 +67,14 @@ async function getCoordinatesOsm(location) {
         }
         const data = await response.json();
         if (data && data.length > 0) {
+
             console.log(`Locations for ${location}: ${data[0].lat}, ${data[0].lon}`);
             const googleMapsLink = `https://www.google.com/maps/search/?api=1&query=${data[0].lat},${data[0].lon}`;
             console.log(`Google Maps link for ${location}: ${googleMapsLink}`);
+
             return {
                 lat: data[0].lat,
-                lng: data[0].lon
+                lon: data[0].lon
             };
         } else {
             throw new Error(`No coordinates found for location: ${location}`);
@@ -81,7 +93,8 @@ async function getRouteEstimateOsm(locations) {
     try {
         const coordinatesPromises = locations.map(location => getCoordinates(location));
         const coordinates = await Promise.all(coordinatesPromises);
-        const coordinatesString = coordinates.map(coord => `${coord.lng},${coord.lat}`).join(';');
+
+        const coordinatesString = coordinates.map(coord => `${coord.lon},${coord.lat}`).join(';');
         const osmUrl = `https://router.project-osrm.org/route/v1/driving/${coordinatesString}?overview=false`;
 
         const response = await fetch(osmUrl);

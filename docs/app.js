@@ -44,8 +44,8 @@ async function generateLinks() {
   if (crossings) {
     for (const crossing of crossings) {
       const link = travelDirection === 'direction-a-b'
-        ? generateGoogleMapsLink(locationA, locationB, crossing.map)
-        : generateGoogleMapsLink(locationB, locationA, crossing.map);
+        ? generateGoogleMapsLink(locationA, locationB, crossing)
+        : generateGoogleMapsLink(locationB, locationA, crossing);
 
       const row = document.createElement('tr');
       row.innerHTML = `
@@ -59,7 +59,7 @@ async function generateLinks() {
       `;
       tbody.appendChild(row);
 
-      getRouteEstimateOsm([locationA, crossing.map, locationB]).then(estimate => {
+      getRouteEstimateOsm([locationA, crossing, locationB]).then(estimate => {
         row.cells[4].textContent = estimate.distance;
         row.cells[5].textContent = estimate.duration;
       }).catch(error => {
@@ -74,9 +74,16 @@ async function generateLinks() {
   }
 }
 
+// function generateGoogleMapsLink(from, to, crossing) {
+//   const base = 'https://www.google.com/maps/dir/';
+//   const route = base + `?api=1&destination=${encodeURIComponent(to)}&waypoints=`;
+//   const withWaypoints = crossing.lat && crossing.lon 
+//     ? route + `${crossing.lat},${crossing.lon}`
+//     : route + encodeURIComponent(crossing);
+//   return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(to)}&waypoints=${encodeURIComponent(crossing)}`;
+// }
 function generateGoogleMapsLink(from, to, crossing) {
-  // const base = 'https://www.google.com/maps/dir/';
-  // const base = 'maps://maps.google.com/maps/dir/';
-  // return `${base}${encodeURIComponent(from)}/${encodeURIComponent(crossing)}/${encodeURIComponent(to)}`;  
-  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(to)}&waypoints=${encodeURIComponent(crossing)}`;
+  const base = 'https://www.google.com/maps/dir/';
+  const route = `${base}${encodeURIComponent(from)}/${crossing.lat},${crossing.lon}/${encodeURIComponent(to)}`;
+  return route;
 }
