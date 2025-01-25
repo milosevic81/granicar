@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Crossing Map App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    // Function to save locations to localStorage
+    function saveLocations() {
+      const locationA = document.getElementById('locationA').value;
+      const locationB = document.getElementById('locationB').value;
+      localStorage.setItem('locationA', locationA);
+      localStorage.setItem('locationB', locationB);
+    }
+
+    // Function to load locations from localStorage
+    function loadLocations() {
+      const locationA = localStorage.getItem('locationA');
+      const locationB = localStorage.getItem('locationB');
+      if (locationA) {
+        document.getElementById('locationA').value = locationA;
+      }
+      if (locationB) {
+        document.getElementById('locationB').value = locationB;
+      }
+    }
+
+    // Load locations when the page is loaded
+    window.onload = loadLocations;
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Border Crossing Map Generator</h1>
+    <label for="locationA">Location A:</label>
+    <input type="text" id="locationA" placeholder="Enter location A" value="Beograd">
+
+    <label for="locationA">Location B:</label>
+    <input type="text" id="locationB" placeholder="Enter location B" value="Zagreb">
+
+    <label>Travel Direction:</label>
+    <div>
+      <input type="radio" id="direction-a-b" name="travel-direction" value="direction-a-b" checked>
+      <label for="direction-a-b">A -> B</label>
+    </div>
+    <div>
+      <input type="radio" id="direction-b-a" name="travel-direction" value="direction-b-a">
+      <label for="direction-b-a">B -> A</label>
+    </div>
+
+    <button id="generate" onclick="saveLocations()">Generate Links</button>
+
+    <div class="links" id="links"></div>
+  </div>
+
+  <div class="attribution">
+    Map data from <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>.
+  </div>
+  <script src="borderCrossings.js"></script>
+  <script src="osm.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
