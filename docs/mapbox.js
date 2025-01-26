@@ -1,5 +1,6 @@
 
-const mapboxToken = 'pk.eyJ1IjoibWlsb3NldmljODEiLCJhIjoiY202ZTF1ZnJjMHplZTJrc29jdnZhcGYwcSJ9.mGrg9ErRCh2YuyBwwBPn0Q';
+// const mapboxToken = 'pk.eyJ1IjoibWlsb3NldmljODEiLCJhIjoiY202ZTF1ZnJjMHplZTJrc29jdnZhcGYwcSJ9.mGrg9ErRCh2YuyBwwBPn0Q';
+const mapboxToken = 'pk.eyJ1IjoibWlsb3NldmljODEiLCJhIjoiY202ZHU3OTZxMHc1YTJqcXFhZ3R2eGJzYSJ9.tMMTxXCNz2H5OVLoks72JA'; // DEV
 mapboxgl.accessToken = mapboxToken;
 
 var map = new mapboxgl.Map({
