@@ -1,6 +1,8 @@
 document.getElementById('generate').addEventListener('click', generateLinks);
 
 async function generateLinks() {
+
+  clearRoutes();
   const locationA = document.getElementById('locationA').value;
   const locationB = document.getElementById('locationB').value;
   const travelDirection = document.querySelector('input[name="travel-direction"]:checked').value;
@@ -26,6 +28,7 @@ async function generateLinks() {
       <th>Distance</th>
       <th>Duration</th>
       <th>Link</th>
+      <th>Show</th>
     </tr>
   `;
 
@@ -46,6 +49,7 @@ async function generateLinks() {
       const link = travelDirection === 'direction-a-b'
         ? generateGoogleMapsLink(locationA, locationB, crossing)
         : generateGoogleMapsLink(locationB, locationA, crossing);
+      const routeName = `${locationA}-${crossing.name}-${locationB}`;
 
       const row = document.createElement('tr');
       row.innerHTML = `
@@ -56,12 +60,14 @@ async function generateLinks() {
         <td>Loading...</td>
         <td>Loading...</td>
         <td><a href="${link}" target="_blank">Link</a></td>
+        <td><input type="checkbox" id="${routeName}" checked></td>
       `;
       tbody.appendChild(row);
 
-      getRouteEstimateOsm([locationA, crossing, locationB]).then(estimate => {
+      getRouteEstimate([locationA, crossing, locationB]).then(estimate => {
         row.cells[4].textContent = estimate.distance;
         row.cells[5].textContent = estimate.duration;
+        displayRoute(routeName, estimate.route);
       }).catch(error => {
         row.cells[4].textContent = 'Error';
         row.cells[5].textContent = 'Error';
@@ -74,14 +80,6 @@ async function generateLinks() {
   }
 }
 
-// function generateGoogleMapsLink(from, to, crossing) {
-//   const base = 'https://www.google.com/maps/dir/';
-//   const route = base + `?api=1&destination=${encodeURIComponent(to)}&waypoints=`;
-//   const withWaypoints = crossing.lat && crossing.lon 
-//     ? route + `${crossing.lat},${crossing.lon}`
-//     : route + encodeURIComponent(crossing);
-//   return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(to)}&waypoints=${encodeURIComponent(crossing)}`;
-// }
 function generateGoogleMapsLink(from, to, crossing) {
   const base = 'https://www.google.com/maps/dir/';
   const route = `${base}${encodeURIComponent(from)}/${crossing.lat},${crossing.lon}/${encodeURIComponent(to)}`;

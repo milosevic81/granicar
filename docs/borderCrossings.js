@@ -23,7 +23,7 @@ const borderCrossings = {
     { "name": "Backa Palanka", "lat": 45.242083, "lon": 19.396143 },
     { "name": "Bogojevo", "lat": 45.529094, "lon": 19.087735 },
     { "name": "Bezdan", "lat": 45.844609, "lon": 18.866701 },
-    { "name": "Nestin", "lat": 45.216872, "lon": 19.433022 },
+    { "name": "Nestin", "lat": 45.216592, "lon": 19.421972 },
     { "name": "Lujuba", "lat": 45.172883, "lon": 19.366272 },
     { "name": "Sot", "lat": 45.171446, "lon": 19.346927 }
   ],

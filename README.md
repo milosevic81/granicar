@@ -1,6 +1,10 @@
 # granicar
 This project helps navigate border crossing
 
+# Pages
+
+https://milosevic81.github.io/granicar/
+
 # Run locally
 cd web
 python -m http.server
